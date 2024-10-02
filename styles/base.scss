@@ -1,0 +1,12 @@
+/* Reiknum stærð á öllum boxum sem border-box */
+html {
+  box-sizing: border-box;
+  background-color: var(--color-background-primary);
+}
+
+/* og látum erfast á allt */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
